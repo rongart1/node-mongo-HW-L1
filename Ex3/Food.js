@@ -1,4 +1,4 @@
-export default class Food{
+class Food{
     constructor(calories,name,price,taste){
         this.calories = calories;
         this.name = name;
@@ -13,6 +13,6 @@ export default class Food{
         const formatted = 
             `name :${this.name}\ncalories: ${this.calories}\nprice: ${this.price}$\ntaste: ${this.taste}`;
 
-        console.log(formatted);
+        return formatted;
     }
 }
